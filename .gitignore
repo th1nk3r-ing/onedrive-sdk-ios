@@ -16,6 +16,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+xcshareddata
 
 # Swap files 
 .*.sw*
@@ -28,3 +29,5 @@ DerivedData
 #
 Pods/
 Podfile.lock
+
+.DS_Store
