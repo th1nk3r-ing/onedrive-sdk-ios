@@ -248,7 +248,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOSExplorer/Pods-iOSExplorer-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iOSExplorer/Pods-iOSExplorer-resources.sh",
 				"${PODS_ROOT}/ADAL/ADALiOS/ADALiOS/ADAL_iPad_Storyboard.storyboard",
 				"${PODS_ROOT}/ADAL/ADALiOS/ADALiOS/ADAL_iPhone_Storyboard.storyboard",
 			);
@@ -259,7 +259,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSExplorer/Pods-iOSExplorer-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSExplorer/Pods-iOSExplorer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A9E644055D209208CDB5080 /* [CP] Check Pods Manifest.lock */ = {
