@@ -22,6 +22,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 /**
  A completion handler to be called when the discovery service has completed.
@@ -31,7 +32,7 @@ typedef void(^disambiguationCompletion)(UIViewController *presentedDiscoveryCont
 /**
  The `ODServiceInfoProvider` provides the correct service info to use. It will invoke the UI to prompt the user for their email.
  */
-@interface ODServiceInfoProvider : NSObject <UIWebViewDelegate>
+@interface ODServiceInfoProvider : NSObject <WKNavigationDelegate>
 
 /**
  Starts the discovery service flow to discover the correct service info object to use.
